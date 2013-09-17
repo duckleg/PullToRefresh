@@ -13,8 +13,8 @@ The inherited component is allowed to display a “loading” busy indicator at 
 - Animated Scrolling for iOS 4.3+ or Android 2.3+
 - Supports for Starling Framework (Version 1.3)
 - Currently works with:
--   GroupedList
--   List
+  - GroupedList
+  - List
 
 ## What does work
 
@@ -28,7 +28,7 @@ this.addChild(dPad);
 
 ## Examples
 
-- example [demo](https://sites.google.com/site/ducklegflash/pulltorefresh/example01)
+- example ([demo](https://sites.google.com/site/ducklegflash/pulltorefresh/example01))
 
 (Click the image to see some demos. Be patient, no preloader!)
 
