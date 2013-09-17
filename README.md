@@ -5,10 +5,16 @@ PullToRefresh
 ![Explain01](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex01.jpg)&nbsp;
 ![Explain03](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex03.jpg)
 
+This library aims to provide a reusable Pull to Refresh widget for Adobe AIR mobile. It was based on Starling Framework.
+It displays a “loading” busy indicator at the top of the list and dispatchs a REFRESH_EVENT.
 
 ## Features
 
-- 
+- Animated Scrolling for iOS 4.3+ or Android 2.3+
+- Supports for Starling Framework (Version 1.3)
+- Currently works with:
+-   GroupedList
+-   List
 
 ## What does work
 
