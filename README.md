@@ -6,7 +6,7 @@ PullToRefresh
 ![Explain03](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex03.jpg)
 
 This library aims to provide a reusable Pull to Refresh widget for Adobe AIR mobile. It was based on Starling Framework.
-It displays a “loading” busy indicator at the top of the list and dispatchs a REFRESH_EVENT.
+The inherited component is allowed to displays a “loading” busy indicator at the top of the list and dispatch a REFRESH_EVENT.
 
 ## Features
 
