@@ -3,8 +3,7 @@ PullToRefresh
 
 
 ![Explain01](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex01.jpg)
-![Explain02](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex02.jpg)
-![Explain03](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex03.jpg)
+ ![Explain03](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex03.jpg)
 
 
 ## Features
