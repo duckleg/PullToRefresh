@@ -6,7 +6,7 @@ PullToRefresh
 ![Explain03](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex03.jpg)
 
 This library aims to provide a reusable Pull to Refresh widget for Adobe AIR mobile. It was based on Starling Framework.
-The inherited component is allowed to display a “loading” busy indicator at the top of the list and dispatch a REFRESH_EVENT.
+The inherited component is allowed to display a “loading” busy indicator at the top of the list and dispatch a PULL_TO_REFRESH_EVENT.
 
 ## Features
 
@@ -40,6 +40,16 @@ Create a PullToRefreshList
 ```as3
 var list:List = new PullToRefreshList();
 list.dataProvider = new ListCollection(data);
+list.addEventListener(PullToRefreshList.PULL_TO_REFRESH_EVENT, listPullToRefreshHandler);
+````
+
+If user pull down the component, you will receive a PULL_TO_REFRESH_EVENT
+```as3
+private function listPullToRefreshHandler(event:Event):void{
+	...
+	// call a server to get some data
+	...
+}
 ````
 
 ## Examples
