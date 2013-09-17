@@ -13,17 +13,34 @@ The inherited component is allowed to display a “loading” busy indicator at 
 - Animated Scrolling for iOS 4.3+ or Android 2.3+
 - Supports for Starling Framework (Version 1.3)
 - Currently works with:
-  - GroupedList (Inherit to: feathers.controls.PullToRefreshGroupedList)
-  - List (Inherit to: feathers.controls.PullToRefreshList)
+  - GroupedList (Inherit to: _feathers.controls.PullToRefreshGroupedList_)
+  - List (Inherit to: _feathers.controls.PullToRefreshList_)
 
 ## What does work
 
 
 First of all, you'll import the class path of the component.
 ```as3
-import feathers.controls.PullToRefreshGroupedList;
+import feathers.controls.PullToRefreshList;
+import feathers.controls.List;
 ````
 
+Define a data set
+```as3
+var data:Array =
+	[
+		{ text: "Aardvark" },
+		{ text: "Alligator" },
+		{ text: "Alpaca" },
+		{ text: "Anteater" },
+	];
+````
+
+Create a PullToRefreshList
+```as3
+var list:List = new PullToRefreshList();
+list.dataProvider = new ListCollection(data);
+````
 
 ## Examples
 
