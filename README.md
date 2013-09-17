@@ -13,16 +13,15 @@ The inherited component is allowed to display a “loading” busy indicator at 
 - Animated Scrolling for iOS 4.3+ or Android 2.3+
 - Supports for Starling Framework (Version 1.3)
 - Currently works with:
-  - GroupedList
-  - List
+  - GroupedList (Inherit to: feathers.controls.PullToRefreshGroupedList)
+  - List (Inherit to: feathers.controls.PullToRefreshList)
 
 ## What does work
 
 
-First of all, you'll create an instance of the DPad and add to the stage.
+First of all, you'll import the class path of the component.
 ```as3
-var dPad:DPad = new DPad();
-this.addChild(dPad);
+import feathers.controls.PullToRefreshGroupedList;
 ````
 
 
@@ -34,7 +33,7 @@ this.addChild(dPad);
 
 ## License
 
-Copyright (C) 2012 Marco Wong, http://flash-adobe.blogspot.hk/
+Copyright (C) 2013 Marco Wong, http://flash-adobe.blogspot.hk/
 
 Licence Agreement (The MIT License)
 
