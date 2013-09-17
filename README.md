@@ -19,7 +19,7 @@ The inherited component is allowed to display a “loading” busy indicator at 
 ## What does work
 
 
-First of all, you'll import the class path of the component.
+First of all, you'll import the class path of the component
 ```as3
 import feathers.controls.PullToRefreshList;
 import feathers.controls.List;
