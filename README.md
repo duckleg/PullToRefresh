@@ -43,7 +43,7 @@ list.dataProvider = new ListCollection(data);
 list.addEventListener(PullToRefreshList.PULL_TO_REFRESH_EVENT, listPullToRefreshHandler);
 ````
 
-If user pull down the component, you will receive a PULL_TO_REFRESH_EVENT
+If user pull down the component, you will receive a event
 ```as3
 private function listPullToRefreshHandler(event:Event):void{
 	...
