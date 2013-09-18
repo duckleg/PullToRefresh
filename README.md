@@ -5,12 +5,12 @@ PullToRefresh
 ![Explain01](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex01.jpg)&nbsp;&nbsp;&nbsp;
 ![Explain03](https://c2fa2e6e-a-62cb3a1a-s-sites.googlegroups.com/site/ducklegflash/pulltorefresh/ex03.jpg)
 
-This library aims to provide a reusable Pull to Refresh widget for Adobe AIR mobile. It was based on Starling Framework.
+This library aims to provide a reusable Pull to Refresh widget for Adobe AIR mobile. It was based on Feathers (UI component of Starling Framework).
 The inherited component is allowed to display a “loading” busy indicator at the top of the list and dispatch a event.
 
 ## Features
 
-- Supports for Starling Framework (Version 1.3)
+- Supports for Feathers (Version 1.1)
 - Currently works with:
   - GroupedList (Inherit to: [feathers.controls.PullToRefreshGroupedList](https://github.com/duckleg/PullToRefresh/blob/master/src/feathers/controls/PullToRefreshGroupedList.as))
   - List (Inherit to: [feathers.controls.PullToRefreshList](https://github.com/duckleg/PullToRefresh/blob/master/src/feathers/controls/PullToRefreshList.as))
