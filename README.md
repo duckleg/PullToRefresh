@@ -40,6 +40,7 @@ Create a PullToRefreshList
 var list:List = new PullToRefreshList();
 list.dataProvider = new ListCollection(data);
 list.addEventListener(PullToRefreshList.PULL_TO_REFRESH_EVENT, listPullToRefreshHandler);
+this.addChild(list);
 ````
 
 If user pull down the component, you will receive a event
