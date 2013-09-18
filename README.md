@@ -13,7 +13,7 @@ The inherited component is allowed to display a “loading” busy indicator at 
 - Animated Scrolling for iOS 4.3+ or Android 2.3+
 - Supports for Starling Framework (Version 1.3)
 - Currently works with:
-  - GroupedList (Inherit to: _feathers.controls.PullToRefreshGroupedList_)
+  - GroupedList (Inherit to: [feathers.controls.PullToRefreshGroupedList](https://github.com/duckleg/PullToRefresh/blob/master/src/feathers/controls/PullToRefreshGroupedList.as))
   - List (Inherit to: _feathers.controls.PullToRefreshList_)
 
 ## What does work
