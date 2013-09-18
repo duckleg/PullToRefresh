@@ -10,11 +10,10 @@ The inherited component is allowed to display a “loading” busy indicator at 
 
 ## Features
 
-- Animated Scrolling for iOS 4.3+ or Android 2.3+
 - Supports for Starling Framework (Version 1.3)
 - Currently works with:
   - GroupedList (Inherit to: [feathers.controls.PullToRefreshGroupedList](https://github.com/duckleg/PullToRefresh/blob/master/src/feathers/controls/PullToRefreshGroupedList.as))
-  - List (Inherit to: _feathers.controls.PullToRefreshList_)
+  - List (Inherit to: [feathers.controls.PullToRefreshList](https://github.com/duckleg/PullToRefresh/blob/master/src/feathers/controls/PullToRefreshList.as))
 
 ## What does work
 
@@ -47,7 +46,7 @@ If user pull down the component, you will receive a event
 ```as3
 private function listPullToRefreshHandler(event:Event):void{
 	...
-	// call a server to get some data
+	// call server to return some data
 	...
 }
 ````
@@ -56,7 +55,7 @@ private function listPullToRefreshHandler(event:Event):void{
 
 - example ([demo](https://sites.google.com/site/ducklegflash/pulltorefresh/example01))
 
-(Click the image to see some demos. Be patient, no preloader!)
+(Click the link to see demo. Be patient, no preloader!)
 
 ## License
 
